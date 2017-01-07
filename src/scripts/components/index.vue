@@ -1,3 +1,4 @@
+
 <template id="">
 <div class="m-index" id="m-index">
     <router-view></router-view>

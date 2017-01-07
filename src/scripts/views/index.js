@@ -1,3 +1,4 @@
+
 var Vue= require('../lib/vue.js');
 var Swiper = require('../lib/swiper.js');
 new Vue({

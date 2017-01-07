@@ -1,6 +1,8 @@
+
 @charset "UTF-8";
 @import "./common";
 @import "../libs/swiper.scss";
+@import "./slide2.scss";
 #app{
     height:100%;
 .m-index{
@@ -221,7 +223,7 @@
 	    }
 		>*{width:100%}
 	}
-	 footer{
+    footer{
         height:0.51rem;
         background: #fff;
         ul{
@@ -275,8 +277,6 @@
             
         }
     }
-
 }
-
 }
 

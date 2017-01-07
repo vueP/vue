@@ -85,7 +85,7 @@
 			.then(res => {
 				var that = this;
 				that.list = res;
-				 common.isAllLoaded('#scroll-container ul', function () {
+				 common.isAllLoaded('#index-scroll ul', function () {
 		         common.scroll(that);
 		       })
 			}).catch(e => console.log("Oops, error", e));
