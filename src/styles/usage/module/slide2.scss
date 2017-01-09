@@ -1,6 +1,8 @@
 @charset "UTF-8";
 
-section{
+.list{
+    @include flex();
+    width: 100% !important;
     @include flexbox();
     @include flex-direction(column);
     header{
@@ -44,6 +46,7 @@ section{
     section{
             @include flex();
             background: #fff;
+            width: 100%;
          #scroll-container{
              height: 100%;
          }

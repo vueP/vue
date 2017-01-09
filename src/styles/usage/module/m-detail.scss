@@ -64,7 +64,6 @@
 	}
 	section{
 		@include flex();
-		@include flex-direction(column);
 		overflow-y: scroll;
 		background:#fff;
 		width:100%;
@@ -92,9 +91,9 @@
 			height:0.76rem;
 			padding:0.08rem 0;
 			margin:0 0.08rem;
+			@include flexbox();
 			@include justify-content(space-between);
 			@include align-items(center);
-			@include flexbox();
 			.l-collect{
 				@include flexbox();
 				@include justify-content(center);

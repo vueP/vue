@@ -1,14 +1,8 @@
-
-
-
-var common={
-	render:function(str){
-		var body=document.body;
-		body.innerHTML=str+body.innerHTML;
-
-	}
-}
-
+var common = {
+  render: function (str) {
+    var body = document.body;
+    body.innerHTML = str + body.innerHTML;
+  },
 
   isAllLoaded(scope, cb) {
       var t_img; // 定时器
@@ -95,7 +89,7 @@ var common={
             //TODO ajax上拉加载数据
             var self = this;
 
-            fetch('/api/list')
+            fetch('/api/listdyy')
             .then(response => response.json())
             .then(res => {
               that.list = that.list.concat(res);
@@ -114,4 +108,3 @@ var common={
 }
 
 module.exports = common;
-

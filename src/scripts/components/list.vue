@@ -1,5 +1,5 @@
 <template>
-	<section>
+	<div class="list">
 			<header>
 	    		<div class="search">
 	    			请输入关键字
@@ -42,7 +42,7 @@
 	    		</ul>
 	    	</nav>
 	    	<section>
-	    		<div id="scroll-container">
+	    		<div id="index-scroll">
 	    		 	<div class="scroll-container">
 	    		 	<div class="head hide">
 		                <img src="/images/arrow.png" width="40" height="40"/>
@@ -69,7 +69,7 @@
    				 </div>
 	    		</div>
 	    	</section>
-	</section>
+	</div>
 </template>
 
 <script>
@@ -81,7 +81,7 @@
 			}
 		},
 		mounted: function () {
-			fetch('/api/list').then(response => response.json())
+			fetch('/api/listdyy').then(response => response.json())
 			.then(res => {
 				var that = this;
 				that.list = res;

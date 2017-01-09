@@ -31,16 +31,16 @@
             title: '产品'
           },
           {
-            router: '/photo',
+            router: '',
             ico:'<span>申请</br>分销</span>'
           },
           {
-            router: '/my',
+            router: '',
             ico: '&#xe6bd;',
             title: '购物车'
           },
           {
-            router: '/exit',
+            router: '/me',
             ico: '&#xe60f;',
             title: '我的'
           }
